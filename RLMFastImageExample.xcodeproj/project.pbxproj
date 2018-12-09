@@ -14,6 +14,7 @@
 		2257BC8D21B6C1DD00682C90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2257BC8B21B6C1DD00682C90 /* LaunchScreen.storyboard */; };
 		2257BC9021B6C1DD00682C90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2257BC8F21B6C1DD00682C90 /* main.m */; };
 		2261F6FF21BD3648000CF656 /* RLMFastImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2261F6FE21BD3648000CF656 /* RLMFastImage.m */; };
+		2261F70221BD37B8000CF656 /* UIImageView+RLMFastImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2261F70121BD37B8000CF656 /* UIImageView+RLMFastImage.m */; };
 		468FCB0482CED1DBD96D18AB /* libPods-RLMFastImageExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D83E4DD32121A5328F48B30 /* libPods-RLMFastImageExample.a */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,8 @@
 		2257BC8F21B6C1DD00682C90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2261F6FD21BD3648000CF656 /* RLMFastImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLMFastImage.h; sourceTree = "<group>"; };
 		2261F6FE21BD3648000CF656 /* RLMFastImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLMFastImage.m; sourceTree = "<group>"; };
+		2261F70021BD37B8000CF656 /* UIImageView+RLMFastImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+RLMFastImage.h"; sourceTree = "<group>"; };
+		2261F70121BD37B8000CF656 /* UIImageView+RLMFastImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+RLMFastImage.m"; sourceTree = "<group>"; };
 		7D83E4DD32121A5328F48B30 /* libPods-RLMFastImageExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RLMFastImageExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AEED15A3384F28782070FC4 /* Pods-RLMFastImageExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RLMFastImageExample.debug.xcconfig"; path = "Target Support Files/Pods-RLMFastImageExample/Pods-RLMFastImageExample.debug.xcconfig"; sourceTree = "<group>"; };
 		CA82C95537472F617BDCBC11 /* Pods-RLMFastImageExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RLMFastImageExample.release.xcconfig"; path = "Target Support Files/Pods-RLMFastImageExample/Pods-RLMFastImageExample.release.xcconfig"; sourceTree = "<group>"; };
@@ -87,6 +90,8 @@
 			children = (
 				2261F6FD21BD3648000CF656 /* RLMFastImage.h */,
 				2261F6FE21BD3648000CF656 /* RLMFastImage.m */,
+				2261F70021BD37B8000CF656 /* UIImageView+RLMFastImage.h */,
+				2261F70121BD37B8000CF656 /* UIImageView+RLMFastImage.m */,
 			);
 			path = RLMFastImage;
 			sourceTree = "<group>";
@@ -206,6 +211,7 @@
 			files = (
 				2257BC8521B6C1DC00682C90 /* ViewController.m in Sources */,
 				2261F6FF21BD3648000CF656 /* RLMFastImage.m in Sources */,
+				2261F70221BD37B8000CF656 /* UIImageView+RLMFastImage.m in Sources */,
 				2257BC9021B6C1DD00682C90 /* main.m in Sources */,
 				2257BC8221B6C1DC00682C90 /* AppDelegate.m in Sources */,
 			);
